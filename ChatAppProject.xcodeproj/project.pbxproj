@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C35224F9278A79520023067C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35224F8278A79520023067C /* AppDelegate.swift */; };
 		C35224FB278A79520023067C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35224FA278A79520023067C /* SceneDelegate.swift */; };
-		C35224FD278A79520023067C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35224FC278A79520023067C /* ViewController.swift */; };
+		C35224FD278A79520023067C /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35224FC278A79520023067C /* ConversationViewController.swift */; };
 		C3522500278A79520023067C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35224FE278A79520023067C /* Main.storyboard */; };
 		C3522503278A79520023067C /* ChatAppProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3522501278A79520023067C /* ChatAppProject.xcdatamodeld */; };
 		C3522505278A79530023067C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3522504278A79530023067C /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 		C35224F5278A79520023067C /* ChatAppProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35224F8278A79520023067C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35224FA278A79520023067C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C35224FC278A79520023067C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C35224FC278A79520023067C /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		C35224FF278A79520023067C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3522502278A79520023067C /* ChatAppProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatAppProject.xcdatamodel; sourceTree = "<group>"; };
 		C3522504278A79530023067C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				C352252F278A7A3D0023067C /* RegisterViewController.swift */,
 				C3522531278A7A560023067C /* NewConversationViewController.swift */,
 				C3522533278A7A6D0023067C /* ProfileViewController.swift */,
-				C35224FC278A79520023067C /* ViewController.swift */,
+				C35224FC278A79520023067C /* ConversationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35224FD278A79520023067C /* ViewController.swift in Sources */,
+				C35224FD278A79520023067C /* ConversationViewController.swift in Sources */,
 				C3522532278A7A560023067C /* NewConversationViewController.swift in Sources */,
 				C35224F9278A79520023067C /* AppDelegate.swift in Sources */,
 				C35224FB278A79520023067C /* SceneDelegate.swift in Sources */,
