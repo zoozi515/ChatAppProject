@@ -18,6 +18,7 @@ extension DatabaseManager{
         database.child(email).observeSingleEvent(of: .value, with: {snapshot in
             guard snapshot.value as? String != nil else{
                 completion(false)
+                print("Not Exist")
                 return
             }
             completion(true) //the email exist 

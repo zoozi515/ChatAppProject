@@ -170,6 +170,7 @@ class RegisterViewController: UIViewController {
             guard !exist else{
                 //user already exist
                 self?.createErrorAlert(msg:"Email Adress Already Exist!!")
+                print("Exist")
                 return
             }
             
